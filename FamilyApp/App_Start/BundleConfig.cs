@@ -26,6 +26,12 @@ namespace FamilyApp
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                    "~/scripts/angular.js",
+                    "~/scripts/angular-route.js",
+                    "~/app/app.js")
+                .IncludeDirectory("~/app", "*.js", true));
         }
     }
 }
