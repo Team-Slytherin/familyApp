@@ -21,9 +21,12 @@ namespace FamilyApp.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("FamilyApp", throwIfV1Schema: false)
         {
         }
+
+        public DbSet<Member> Members { get; set; }
+        public DbSet<Family> Families { get; set; }
 
         public static ApplicationDbContext Create()
         {

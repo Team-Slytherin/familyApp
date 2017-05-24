@@ -6,7 +6,7 @@ using System.Web;
 
 namespace FamilyApp.Models
 {
-    public class Individual
+    public class Member
     {
         [Key]
         public int Id { get; set; }
