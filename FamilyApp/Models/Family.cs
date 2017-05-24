@@ -12,7 +12,6 @@ namespace FamilyApp.Models
         public int Id { get; set; }
         public string LastName { get; set; }
         public string Origin { get; set; }
-        public virtual List<Individual> Members { get; set; }
-
+        public virtual List<Member> Members { get; set; }
     }
 }
