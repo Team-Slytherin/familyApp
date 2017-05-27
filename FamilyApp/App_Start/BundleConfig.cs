@@ -24,14 +24,15 @@ namespace FamilyApp
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                "~/Content/bootstrap.min.css",
+                "~/Content/login.css",
+                "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
-                    "~/scripts/angular.js",
-                    "~/scripts/angular-route.js",
-                    "~/app/app.js")
-                .IncludeDirectory("~/app", "*.js", true));
+                "~/Scripts/angular.js",
+                "~/app/app.js",
+                "~/Scripts/angular-route.js")
+            .IncludeDirectory("~/app", "*.js", true));
         }
     }
 }

@@ -234,8 +234,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\Home\Home.html" />
+    <Content Include="app\Home\HomeController.js" />
+    <Content Include="app\Login\Login.html" />
+    <Content Include="app\Login\LoginController.js" />
+    <Content Include="app\Logout\LogoutController.js" />
+    <Content Include="app\Register\Register.html" />
+    <Content Include="app\Register\RegisterController.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\login.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -283,11 +291,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\Alerts\" />
-    <Folder Include="app\Family\" />
-    <Folder Include="app\Login\" />
-    <Folder Include="app\Logout\" />
-    <Folder Include="app\Members\" />
-    <Folder Include="app\Register\" />
     <Folder Include="App_Data\" />
     <Folder Include="DAL\Interfaces\" />
     <Folder Include="DAL\Repos\" />
