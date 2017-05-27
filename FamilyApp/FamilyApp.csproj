@@ -282,8 +282,15 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\Controllers\" />
+    <Folder Include="app\Alerts\" />
+    <Folder Include="app\Family\" />
+    <Folder Include="app\Login\" />
+    <Folder Include="app\Logout\" />
+    <Folder Include="app\Members\" />
+    <Folder Include="app\Register\" />
     <Folder Include="App_Data\" />
+    <Folder Include="DAL\Interfaces\" />
+    <Folder Include="DAL\Repos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
